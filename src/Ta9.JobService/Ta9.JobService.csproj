@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>Ta9.JobService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="MongoDB.Driver" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ta9.ServiceDefaults\Ta9.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Ta9.Contracts\Ta9.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+# artifacts/ is NOT ignored: Dockerfile.prebuilt copies host-published binaries from it
+**/TestResults/
+.git/
+.vs/
+.vscode/
+.idea/
+doc/
+docs/
+tests/
+scripts/
+*.md
+**/*.user
+**/appsettings.Development.json
+**/NuGet.Config
+**/nuget.config
